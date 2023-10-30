@@ -1,0 +1,20 @@
+en:
+  app:
+    title:    'Analyze'
+
+  sidebar:
+    header:   'Navigation'
+    page:
+      basic_stats:    'Basic Statistics'  
+
+  navigation:
+    home:     'Home'
+    about:    'About'  
+  
+  search:
+    placeholder:  'Search'
+    label:        'Search'
+
+  basic_stats:
+    metrics:
+      tab:        'Metrics'
