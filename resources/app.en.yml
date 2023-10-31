@@ -16,5 +16,8 @@ en:
     label:        'Search'
 
   basic_stats:
-    metrics:
-      tab:        'Metrics'
+    measures:
+      tab:        'Measures'
+      graph:
+        title:    'Sample data'
+        note:     'Hover the boxplots to get some more information!'
