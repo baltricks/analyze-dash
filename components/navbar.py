@@ -1,7 +1,6 @@
-import dash
 import i18n
 
-from dash import Input, Output, State, html
+from dash import Input, Output, State, html, page_registry
 from dash_bootstrap_components import Navbar, NavbarBrand, Nav, NavLink, NavbarToggler
 from dash_bootstrap_components import Row, Col, Button, Input as Input_comp, Collapse
     
@@ -9,7 +8,7 @@ from dash_bootstrap_components import Row, Col, Button, Input as Input_comp, Col
 def get_navbar(app):
     nav_contents = [
         NavLink(page['title'], href=page["relative_path"], active="exact")
-            for page in dash.page_registry.values() 
+            for page in page_registry.values() 
             if page['name'] in ('home', 'about')
     ]
 
