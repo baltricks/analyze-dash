@@ -1,2 +1,4 @@
-bak
-*/__pycache__
+_bak
+_others
+_tmp
+**/__pycache__
